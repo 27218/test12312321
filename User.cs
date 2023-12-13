@@ -12,11 +12,11 @@ class Program
 {
     static void Main()
     {
-        User alex = new User(1,"Ivan");
-        User marry = new User(2,"Oleg");
-        Console.WriteLine(alex);
-        Console.WriteLine(marry);
-        User[] users = { alex, marry };
+        User ivan = new User(1,"Ivan");
+        User oleg = new User(2,"Oleg");
+        Console.WriteLine(ivan);
+        Console.WriteLine(oleg);
+        User[] users = { ivan, oleg };
         foreach (User item in users)
         {
             Console.WriteLine(item);
